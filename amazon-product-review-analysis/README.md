@@ -23,7 +23,7 @@ The **Core business question** i aimed to answer was:
 
 ## 📂 Dataset
 
-The dataset used, titled *Amazon case study.xlsx* was provided by DSA & the Incubator Hub as part of the requirements in partial fulfillment and completion of my course Data Analysis with them. You can find it in this repository as well.
+*The dataset used, titled *Amazon case study.xlsx* was provided by **DSA & the Incubator hub**, as part of the requirements for my data analysis course completion with them. You can find this dataset in this repository as well.*
 ---
 
 ## 🔍 Methodology
