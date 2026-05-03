@@ -90,8 +90,11 @@ This project answers the following business questions for Amazon:
 ## 📬 Contact
  
 **Uchechukwu Esther Okwudili**
+
 📧 ucokwudili27@gmail.com
+
 💼 www.linkedin.com/in/uchechukwu-okwudili-a7437933a
+
 🌐 [Portfolio / GitHub Profile URL]
  
 ---
