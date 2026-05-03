@@ -29,6 +29,7 @@ The **Core business question** i aimed to answer was:
 ## 🔍 Methodology
  
 ### Step 1: Data Cleaning
+*I Created a copy of dataset intitially, to use as the working area*
 - Removed duplicate product entries
 - Standardized price columns (removed currency symbols, converted to numeric)
 - Handled blank and inconsistent values in rating and review columns, using information from *product name* and *category class2* columns
@@ -37,12 +38,11 @@ The **Core business question** i aimed to answer was:
 - Transformed data in power query
 
 ### Step 2: Calculated Columns Created
-| Column | Formula Logic |
-|--------|--------------|
-| Discount % | `(Actual Price - Discounted Price) / Actual Price × 100` |
-| Potential Revenue | `Actual Price × Rating Count` | =PRODUCT([@[actual_price]],[@[rating_count]])
-| Price Range Bucket | `<₹200`, `₹200–₹500`, `>₹500` | =IF(H19<200,"₹200",IF(OR(H19=200,H19=500),"₹200-₹500",">₹500"))
-| countif to get the number of products that have a discount of 50% and above | `1 if Discount % ≥ 50, else 0` |
+| Column | Formula Logic | Excel Formula |
+|--------|---------------|---------------|
+| Potential Revenue | `Actual Price × Rating Count` | `=PRODUCT([@[actual_price]],[@[rating_count]])`
+| Price Range Bucket | `<₹200`, `₹200–₹500`, `>₹500` | `=IF(H19<200,"₹200",IF(OR(H19=200,H19=500),"₹200-₹500",">₹500"))`
+| Number of products that have a discount of 50% and above | `1 if Discount % ≥ 50, else 0` | `COUNTIF(Amazon_copy!K:K, ">=0.5") = 751`
  
 ### Step 3: Pivot Table Analysis
 - Built pivot tables to answer all 14 analysis questions across categories, ratings, pricing tiers, and review volumes.
@@ -50,7 +50,6 @@ The **Core business question** i aimed to answer was:
  
 ### Step 4: Dashboard Creation
 - Dashboard: Designed a one-page interactive summary for management insights featuring a KPI summary card, category comparison charts, rating distribution visuals by category, and an interactive slicer for filtering by product categoryand rating ranges.
-*I Created a copy of dataset intitially, to use as the working area*
 ---
 
 ## 🔎 Key Analysis Questions
