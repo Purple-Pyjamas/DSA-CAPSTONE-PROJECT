@@ -1,17 +1,6 @@
 # Amazon-Product-Review-Analysis  
 
 Unravelling price patterns of different variables across over a thousand Amazon products using excel, to help generate insights that can guide product improvement and marketing strategies, and enhance customer engagement
-
-## 📌 Table of Contents
- 
-- [Project Overview](#project-overview)
-- [Tools & features used](#tools--features)
-- [Dataset](#dataset)
-- [Methodology](#methodology)
-- [Key Analysis Questions](#key-analysis-questions)
-- [Key Findings & Insights](#key-findings--insights)
-- [Dashboard Preview](#dashboard-preview)
-- [Contact](#contact)
 ---  
 
 
