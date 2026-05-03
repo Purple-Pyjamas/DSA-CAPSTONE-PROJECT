@@ -5,6 +5,7 @@ Unravelling price patterns of different variables across over a thousand Amazon 
 ## 📌 Table of Contents
  
 - [Project Overview](#project-overview)
+- [Tools & features used](#tools--features)
 - [Dataset](#dataset)
 - [Methodology](#methodology)
 - [Key Analysis Questions](#key-analysis-questions)
@@ -21,3 +22,17 @@ The final deliverable is an interactive **Excel Dashboard** built from cleaned d
 
 The **Core business question** i aimed to answer was:
 > *Which product categories and pricing strategies drive the highest customer engagement, and where do opportunities exist to improve ratings and revenue?*
+
+
+## 🛠️ Tools & Features used
+| Tool | Purpose |
+|------|---------|
+| Microsoft Excel | Data cleaning, calculated columns, pivot tables, pivot charts |
+| Power Query | Data transformation and editing |
+| Excel Dashboard | Final interactive visualization and report |
+
+
+ ## 📂 Dataset
+The dataset used, titled Amazon case study.xlsx was provided by DSA & the Incubator Hub as part of the requirements in partial fulfillment and completion of my course Data Analysis with them. You can find it in this repository as well.
+
+
