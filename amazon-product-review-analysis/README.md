@@ -1,8 +1,7 @@
 # Amazon-Product-Review-Analysis  
-
-Unravelling price patterns of different variables across over a thousand Amazon products using excel, to help generate insights that can guide product improvement and marketing strategies, and enhance customer engagement
 ---  
 
+Unravelling price patterns of different variables across numerous Amazon products in 9 major categories using Excel, to help generate insights that can guide groduct improvement and marketing strategies, and drive customer engagement.
 
 # 📖 Project Overview
  
@@ -14,6 +13,7 @@ The **Core business question** i aimed to answer was:
 ---
 
 ## 🛠️ Tools & Features used
+
 | Tool | Purpose |
 |------|---------|
 | Microsoft Excel | Data cleaning, calculated columns, pivot tables, pivot charts |
@@ -22,6 +22,7 @@ The **Core business question** i aimed to answer was:
 ---
 
 ## 📂 Dataset
+
 The dataset used, titled *Amazon case study.xlsx* was provided by DSA & the Incubator Hub as part of the requirements in partial fulfillment and completion of my course Data Analysis with them. You can find it in this repository as well.
 ---
 
