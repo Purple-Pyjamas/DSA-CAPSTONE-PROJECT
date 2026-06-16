@@ -20,8 +20,8 @@ The Palmoria Group was publicly called out by the media as "The Manufacturing Pa
 3. The company’s salary structure. Is there is a gender pay gap? If yes, in what department and regions?
 4. A recent regulation was adopted which requires manufacturing companies to pay 
 employees a minimum of $90,000 
- 1. Does Palmoria meet this requirement? 
- 2. What is the pay distribution of employees grouped by a band of $10,000 across the 3 regions of the company?
+ - Does Palmoria meet this requirement?
+ -  What is the pay distribution of employees grouped by a band of $10,000 across the 3 regions of the company?
 As a secondary task, HR wants a newly computed salary for individual employees in the company, and handed me another data set that contains rules for making bonus payments, requiring me to:
 1. Calculate the amount to be paid as a bonus to individual employees
 2. Calculate the total amount to be paid to individual employees (salary inclusive of bonus)
