@@ -34,7 +34,7 @@ As a secondary task, HR wants a newly computed salary for individual employees i
 | Tool | Purpose |
 |------|---------|
 | Power BI | Interactive dashboard and data visualization, new groups |
-| Power Query| Data transformation — removing nulls, promote headers, changed data type, pivot columns |
+| Power Query| Data transformation: removing nulls, promote headers, changed data type, pivot columns |
 | DAX | Calculated measures, calculated columns |
 | Formulas | `Total Compensation = 'Palmoria Group emp-data'[Salary] + 'Palmoria Group emp-data'[Bonus Amount]`; `Bonus Amount = VAR EmpDept = 'Palmoria Group emp-data'[Department] VAR EmpRating = 'Palmoria Group emp-data'[Rating] VAR BonusPct = CALCULATE(MAX('bonus lookup table'[Value]), 'bonus lookup table'[Department] = EmpDept, 'bonus lookup table'[Attribute] =EmpRating) RETURN 'Palmoria Group emp-data'[Salary] * BonusPct`
          
@@ -65,7 +65,7 @@ As a secondary task, HR wants a newly computed salary for individual employees i
 
 - Showed the total number of employees, average salary, and minimum salary using cards on dashboard
 - Analysed the gender distribution across departments using tables on the dashboard
-- Tramsformed data in power query - promoted headers, pivotted columns, changed data types, filtered rows, replaced rows
+- Tramsformed data in power query: promoted headers, pivotted columns, changed data types, filtered rows, replaced rows
 - Used DAX functions and measured columns to analyse and identify gender disparities in pay, ratings, and representation
 
 ### Step 4: Created calculated columns
