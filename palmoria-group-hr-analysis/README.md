@@ -6,7 +6,7 @@
 
 ## 📖Project Overview
 
-This project was completed as part of the DSA Data Analysis Capstone requirements, where I took on the role of an HR Analytics Expert recruited by the Palmoria Group — a Nigerian manufacturing company facing public scrutiny over gender inequality.  
+This project was completed as part of the DSA Data Analysis Capstone requirements, where I took on the role of an HR Analytics Expert recruited by the Palmoria Group, a Nigerian manufacturing company facing public scrutiny over gender inequality.  
 In this project, I analyse the Palmoria Group company’s HR data to generate insights and reveal problem areas, especially regarding gender related issues across the 3 regions of the company, and come up with evidence based recommendations for the management’s attention. 
 As a secondary task, I also allocated the annual bonuses to be paid out to each employee based on their performance rating, and I visusalized my findings neatly using PowerBi.
 
