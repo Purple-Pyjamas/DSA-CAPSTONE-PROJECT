@@ -63,8 +63,10 @@ As a secondary task, HR wants a newly computed salary for individual employees i
 
 ### Step 3: Exploratory Data Analysis (EDA)
 
-- Showed minimum salary of 28k using card on dashboard
-- 
+- Showed the total number of employees, average salary, and minimum salary using cards on dashboard
+- Analysed the gender distribution across departments using tables on the dashboard
+- Tramsformed data in power query - promoted headers, pivotted columns, changed data types, filtered rows, replaced rows
+- Used DAX functions and measured columns to analyse and identify gender disparities in pay, ratings, and representation
 
 ### Step 4: Created calculated columns
 
@@ -111,6 +113,22 @@ As a secondary task, HR wants a newly computed salary for individual employees i
 2. Clone or download this repository
 3. Open `palmoria hr analysis.pbix` in Power BI Desktop
 4. Explore using the slicers and filters on the report pages
+
+---
+
+## Limitations
+
+- Employees who did not disclose gender were classified as "Non binary". They were only excluded from gender-specific interpretations, but not the initial analysis, and may cause skewed results.
+- This analysis is based on a static HR snapshot. Attrition and promotions after the data cut-off are not reflected.
+- The minimum salary regulation ($90,000) is applied uniformly, and a regional "cost of living" differences were not factored in.
+
+---
+
+## Future Improvements
+
+- Build a Power BI dashboard with drill-through by employee level and tenure
+- Add trend analysis where multi-year HR data becomes available
+- Automate bonus calculation using Python for scalability
 
 ---
 
