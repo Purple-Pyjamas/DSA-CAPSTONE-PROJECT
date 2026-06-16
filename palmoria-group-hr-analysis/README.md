@@ -93,7 +93,7 @@ As a secondary task, HR wants a newly computed salary for individual employees i
 - Gender Distribution: Female employees represent 46.62% of the workforce overall, with lagos being the most imbalanced area. In general however, there is no significant difference. Non-binary employees represent only a 4.23% of the workforce, which is significantly low.
 - Ratings Gap: Male employees received "Average" ratings at 22 percentage points higher than female employees in the company, despite similar role distributions.
 - Pay Gap: A gender pay gap of approximately $6230 exists on average. Pay gap is most pronounced in the Human resource and Sales departments, and in Lagos state, with deficits of up to 12% of the average salary.
-- Regulation Compliance: More than 70% of employees currently earn below the $90,000 minimum salary threshold — concentrated in Kaduna
+- Regulation Compliance: More than 70% of employees currently earn below the $90,000 minimum salary threshold, concentrated in Kaduna
 - Bonus Payout: Total bonus obligations amount to $2,200,000 company-wide, with Kaduna accounting for the largest share at $825,911.78.
 
 ---
@@ -101,6 +101,8 @@ As a secondary task, HR wants a newly computed salary for individual employees i
 ## 📊 Dashboard / Visualizations
 
 <img width="632" height="353" alt="palmoria1" src="https://github.com/user-attachments/assets/a3412d4a-111f-4431-aace-b98bd1aa0739" />
+
+---
 
 <img width="638" height="362" alt="palmoria2" src="https://github.com/user-attachments/assets/1f40765d-2ce1-4d0f-bf5b-f58ce88dddef" />
 
