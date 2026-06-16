@@ -36,7 +36,8 @@ As a secondary task, HR wants a newly computed salary for individual employees i
 | Power BI | Interactive dashboard and data visualization, new groups |
 | Power Query| Data transformation — removing nulls, promote headers, changed data type, pivot columns |
 | DAX | Calculated measures, calculated columns |
-| Formulas | `Total Compensation = 'Palmoria Group emp-data'[Salary] + 'Palmoria Group emp-data'[Bonus Amount]`; `Bonus Amount = VAR EmpDept = 'Palmoria Group emp-data'[Department] VAR EmpRating = 'Palmoria Group emp-data'[Rating] VAR BonusPct = CALCULATE(MAX('bonus lookup table'[Value]), 'bonus lookup table'[Department] = EmpDept, 'bonus lookup table'[Attribute] =EmpRating) RETURN 'Palmoria Group emp-data'[Salary] * BonusPct`
+| Formulas | `Total Compensation = 'Palmoria Group emp-data'[Salary] + 'Palmoria Group emp-data'[Bonus Amount]`; 
+`Bonus Amount = VAR EmpDept = 'Palmoria Group emp-data'[Department] VAR EmpRating = 'Palmoria Group emp-data'[Rating] VAR BonusPct = CALCULATE(MAX('bonus lookup table'[Value]), 'bonus lookup table'[Department] = EmpDept, 'bonus lookup table'[Attribute] =EmpRating) RETURN 'Palmoria Group emp-data'[Salary] * BonusPct`
          
 ---
 
